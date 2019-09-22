@@ -20,6 +20,8 @@ This is a list of the extensions, settings, keyboard shortcuts, and actions I us
 
 * Enable map mode in scroll bar: `Tools -> Options -> Text Editor -> All Languages -> Scroll Bars -> Behavior -> Use map mode`.
 
+* Disable drag and drop in the code editor: `Tools -> Options -> Text Editor -> General -> Drag and drop text editing`.
+
 ### Extensions
 
 * [Viasfora](https://marketplace.visualstudio.com/items?itemName=TomasRestrepo.Viasfora)
@@ -77,6 +79,8 @@ Changes made to `settings.json`:
 * Don't ignore leading or trailing whitespace in the diff: `"diffEditor.ignoreTrimWhitespace": false`
 
 * Set Bash as the default terminal: `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"`
+
+* Disable drag and drop in the code editor: `"editor.dragAndDrop": false`
 
 ### Extensions
 
