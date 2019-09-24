@@ -2,7 +2,7 @@
 
 This is a list of the extensions, settings, keyboard shortcuts, and actions I use with my development environments. I thought it would be much easier to put them all in an easily-accessible list instead of trying to remember every setting and extension, and then hunt them down again when I migrate to a new machine or have to reinstall an editor.
 
-## Visual Studio 2017
+## Visual Studio 2017/2019
 
 ### Settings
 
@@ -12,7 +12,7 @@ This is a list of the extensions, settings, keyboard shortcuts, and actions I us
 
 * Set tabs to spaces: `Tools -> Options -> Text Editor -> All Languages -> Tabs`.
 
-    Set tabs to 4 spaces.
+* Show whitespace: `Edit -> Advanced -> View White Space` (can also be toggled with `Ctrl + r, Ctrl + w)`
 
 * Make whitespace indicators more visible: `Tools -> Options -> Environment -> Fonts and Colors -> Item foreground`.
 
@@ -30,7 +30,9 @@ This is a list of the extensions, settings, keyboard shortcuts, and actions I us
 
 * [Indent Guides](https://marketplace.visualstudio.com/items?itemName=SteveDowerMSFT.IndentGuides)
 
-    Visual Studio enables these by default for C#, but they're oddly absent for C++.
+    * Visual Studio 2017 enables these by default for C#, but they're oddly absent for C++.
+
+         Indent guides are present for C++ in Visual Studio 2019, so this extension isn't needed.
 
 * [ClangFormat](https://marketplace.visualstudio.com/items?itemName=LLVMExtensions.ClangFormat)
 
