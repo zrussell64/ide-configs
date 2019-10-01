@@ -60,6 +60,8 @@ This is a list of the extensions, settings, keyboard shortcuts, and actions I us
 
 * `Ctrl + -`: Go back.
 
+* `Ctrl + ;`: Search Solution Explorer.
+
 ### Actions/Other
 
 * Untabify Selection: `Edit -> Advanced -> Untabify Selected Lines`
