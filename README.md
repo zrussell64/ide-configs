@@ -86,7 +86,18 @@ Changes made to `settings.json`:
 
 * Disable drag and drop in the code editor: `"editor.dragAndDrop": false`
 
+* Change terminal cursor to line instead of block: `"terminal.integrated.cursorStyle": "line"`
+
+* Set terminal cursor to blink: `"terminal.integrated.cursorBlinking": true`
+
 ### Extensions
+
+* [Shell Launcher](https://marketplace.visualstudio.com/items?itemName=Tyriar.shell-launcher)
+
+    * [Configure with multiple terminals.](https://techcommunity.microsoft.com/t5/ITOps-Talk-Blog/Configure-Visual-Studio-Code-to-run-PowerShell-for-Windows-and/ba-p/283258)
+
+    * [Use with Visual Studio developer command prompt.](https://medium.com/@devarintinagasaiabhinay/developer-cmd-prompt-with-shell-launcher-extension-in-vscode-96407a27a055)
+
 
 * [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
@@ -109,6 +120,11 @@ Changes made to `settings.json`:
 * `F1`: Show all commands.
 
 * `Ctrl + ,`: Open Settings menu.
+
+### Actions/Other
+
+* [Use the Visual Studio developer command prompt in the integrated terminal.](http://www.cazzulino.com/code-developer-command-prompt.html)
+
 
 ## MATLAB
 
