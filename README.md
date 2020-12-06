@@ -1,6 +1,6 @@
-# IDE Configuration Settings
+# IDE Configuration Settings & Shortcuts
 
-This is a list of the extensions, settings, keyboard shortcuts, and actions I use with my development environments. I thought it would be much easier to put them all in an easily-accessible list instead of trying to remember every setting and extension, and then hunt them down again when I migrate to a new machine or have to reinstall an editor.
+This is a list of the extensions, keyboard shortcuts, actions, and other useful settings I use in my development environments. I thought it would be much easier to put them all in an easily-accessible list instead of trying to remember every setting and extension, and then hunt them down again when I migrate to a new machine or have to reinstall an editor.
 
 ## Visual Studio 2017/2019
 
@@ -145,3 +145,11 @@ Changes made to `settings.json`:
 ## Notepad++
 
 * [Dracula theme](https://draculatheme.com/notepad-plus-plus/)
+
+## Bash Aliases
+
+* Show graph of the current repo: `alias adog='git log --all --decorate --oneline --graph`
+
+* Remove all local branches except master: `alias gbr=git branch | grep -v "master" |xargs git branch -D`
+
+* Add Python to Bash (Windows): `ipython='winpty ipython.exe`
